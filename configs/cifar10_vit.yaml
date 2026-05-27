@@ -1,0 +1,17 @@
+dataset: cifar10
+model: vit
+patch_size: 4
+vit_dim: 256
+vit_depth: 6
+vit_heads: 8
+vit_mlp_ratio: 4.0
+dropout: 0.1
+attention_dropout: 0.1
+drop_path_rate: 0.0
+label_smoothing: 0.0
+weight_decay: 0.05
+optimizer: adamw
+scheduler: cosine
+epochs: 100
+batch_size: 128
+lr: 0.0003

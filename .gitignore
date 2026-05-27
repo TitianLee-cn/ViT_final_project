@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+env/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset
+data/cifar10/
+data/tiny-imagenet-200/
+*.tar
+*.tar.gz
+*.zip
+
+# Outputs
+outputs/
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+*.log
+wandb/
+runs/
+
+# Temporary files
+tmp/
+temp/
